@@ -4,6 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## OpenRouter setup
+
+Create a local env file and add:
+
+- `REACT_APP_OPENROUTER_API_KEY=your_openrouter_key`
+- `REACT_APP_OPENROUTER_MODEL=meta-llama/llama-3.2-3b-instruct:free`
+
+Then restart the dev server after changing env variables.
+
 In the project directory, you can run:
 
 ### `npm start`
