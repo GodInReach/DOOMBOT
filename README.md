@@ -1,79 +1,176 @@
-# Getting Started with Create React App
+# 🚀 DoomBOT (Under Development)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered study companion built to help students solve doubts instantly, understand concepts clearly, and learn in a more personalized way.
 
-## Available Scripts
+🌐 DoomBOT Live: https://doombot.vercel.app/
 
-## OpenRouter setup
+---
 
-Create a local env file and add:
+# 📖 Overview
 
-- `REACT_APP_OPENROUTER_API_KEY=your_openrouter_key`
-- `REACT_APP_OPENROUTER_MODEL=meta-llama/llama-3.2-3b-instruct:free`
+DoomBOT is designed as an adaptive AI tutor that goes beyond simply generating answers. The platform focuses on:
 
-Then restart the dev server after changing env variables.
+- Instant doubt resolution
+- Personalized explanations
+- Voice and image-based input
+- Intent-aware AI responses
+- Weak topic tracking
+- Smart study assistance
 
-In the project directory, you can run:
+The goal is to create a tutor-like experience that adapts to each student’s learning style and education level.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 AI Doubt Solver
+- Get instant answers and explanations
+- Step-by-step problem solving
+- Concept-focused learning support
+- AI-generated hints instead of direct answers
 
-### `npm test`
+## 🎯 Intent Detection
+The AI understands what the student actually wants:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Full solution
+- Hint mode
+- Answer verification
+- Concept explanation
+- Similar practice problems
 
-### `npm run build`
+## 📚 Adaptive Learning
+- Personalized responses based on student level
+- Weak topic tracking
+- Subject categorization
+- Learning progress support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📝 Smart Study Tools
+- Auto summaries
+- Revision sheets
+- One-click notes generation
+- PDF export support
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Browser Overlay Extension
+- AI assistance while studying online
+- Quick explanations on educational platforms
+- Seamless learning workflow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👥 Group Study Mode
+- Collaborative learning sessions
+- AI moderation
+- Live understanding tracking
+- Interactive tutoring support
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Frontend
+- React
+- JSX
+- JavaScript
+- CSS (Custom animations & glassmorphism UI)
+- Vercel Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Backend
+- Node.js
+- FastAPI
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## AI & Processing
+- GPT-4 / Claude
+- OCR (Tesseract)
+- Speech-to-Text
+- Intent Classification
+- Language Detection
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 🎨 UI Highlights
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Fully responsive layout
+- Modern glassmorphism design
+- Animated gradients and transitions
+- Custom cursor and motion effects
+- Smooth interactive experience
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 📂 Project Structure
 
-### Analyzing the Bundle Size
+```bash
+DoomBOT/
+│
+├── frontend/
+│   ├── App.jsx
+│   ├── components/
+│   ├── assets/
+│   └── styles/
+│
+├── backend/
+│   ├── api/
+│   ├── ai-engine/
+│   ├── routes/
+│   └── database/
+│
+├── public/
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+# ⚙️ Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Clone the repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/your-username/doombot.git
+cd doombot
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Install dependencies
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Start development server
 
-### `npm run build` fails to minify
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# 🚀 Deployment
+
+The project is deployed on Vercel.
+
+```bash
+npm run build
+```
+
+Deploy the generated build to:
+
+- Vercel
+- Netlify
+- AWS
+
+---
+
+# 💡 Future Improvements
+
+- Real-time collaborative classrooms
+- AI-generated quizzes
+- Multi-language tutoring
+- Advanced analytics dashboard
+- Offline study support
+- Personalized revision planner
+
+
+---
+
+# ⭐ Support
+
+If you like the project, consider giving it a star and sharing it.
+
